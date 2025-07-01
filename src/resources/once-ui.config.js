@@ -1,7 +1,7 @@
 import { home } from "./content";
 
 // IMPORTANT: Replace with your own domain address - it's used for SEO in meta tags and schema
-const baseURL = "https://demo.magic-portfolio.com";
+const baseURL = "https://viralmarketx.com";
 
 const routes = {
   "/": true,
@@ -60,16 +60,16 @@ const fonts = {
 
 // default customization applied to the HTML in the main layout.tsx
 const style = {
-  theme: "system", // dark | light | system
-  neutral: "gray", // sand | gray | slate | custom
-  brand: "cyan", // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan | custom
-  accent: "red", // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan | custom
-  solid: "contrast", // color | contrast
-  solidStyle: "flat", // flat | plastic
-  border: "playful", // rounded | playful | conservative
-  surface: "translucent", // filled | translucent
-  transition: "all", // all | micro | macro
-  scaling: "100" // 90 | 95 | 100 | 105 | 110
+  theme: "light",
+  neutral: "gray",
+  brand: "cyan",     // try emerald, aqua, or violet if you'd like more uniqueness
+  accent: "red",     // maybe magenta or orange for marketing-style callouts
+  solid: "color",
+  solidStyle: "flat",
+  border: "rounded",
+  surface: "filled",
+  transition: "all",
+  scaling: "105"     // slightly larger for more visible design
 };
 
 const dataStyle = {
@@ -175,16 +175,16 @@ const mailchimp = {
 const schema = {
   logo: "",
   type: "Organization",
-  name: "Once UI",
+  name: "ViralMarketX",
   description: home.description,
-  email: "lorant@once-ui.com",
+  email: "iqbalosama365@gmail.com",
 };
 
 // social links
 const sameAs = {
-  threads: "https://www.threads.com/@once_ui",
-  linkedin: "https://www.linkedin.com/company/once-ui/",
-  discord: "https://discord.com/invite/5EyAQ4eNdS",
+  threads: "https://www.threads.net/@osamaiqbal",
+  linkedin: "https://www.linkedin.com/in/osamaiqbal",
+  discord: "https://discord.gg/YOUR_SERVER_CODE",
 };
 
 export { display, mailchimp, routes, protectedRoutes, baseURL, fonts, style, schema, sameAs, effects, dataStyle };
